@@ -13,7 +13,8 @@ header {
   background: linear-gradient(to right, #0894fc, turquoise);
   height: 70px;
   margin-left: 111.71px;
-  box-shadow: 0px 3px 7px 2px grey;
+  box-shadow: 0px 3px 7px grey;
+  /* måste göra så att det endast är på botten */
   color: white;
 }
 
@@ -21,18 +22,11 @@ header {
   height: 70px;
   position: absolute;
   left: 0;
+  box-shadow: 0px 3px 7px 2px grey;
 }
 
-.mittendel {
-  display: flex;
-}
-
-.lista_rubrik {
-  padding: 30px;
-}
-
-.background {
-  background-color: turquoise;
-  width: 80vw;
-  height: 700px;
+.om_oss {
+  font-size: 50px;
+  margin-left: 50px;
+  padding-top: 5px;
 }
