@@ -35,8 +35,13 @@ header {
   padding: 30px;
 }
 
-#pizza_bild {
-  width: 100vh;
+#pizza_quote {
+  background-image: url(falukorv_i_ugn.png);
+  font-size: 70px;
+  height: 490px;
+  justify-content: center;
+  align-items: center;
+  /* text-shadow: ; */
 }
 
 #background {
