@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glizzy recipes</title>
     <link href="main.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7c905a6340.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -21,18 +22,51 @@
         <input type="checkbox">
         <span class="menu"> <span class="hamburger"></span> </span>
         <ul>
-            <li> <a href="index.html">Home</a> </li>
-            <li> <a href="recept.html">Recipes</a> </li>
-            <li> <a href="om_oss.html">Om oss</a> </li>
+            <a href="index.html">Hem</a>
+            <a href="recept.html">Recept</a>
+            <a href="om_oss.html">Önska recept</a>
         </ul>
     </label>
     <!-- hamnurgermeny -->
-    <div>
-        <div id="gordon">
-            <div id="quote"> "" </div>
-        </div>
+
+    <div id="contact_bg"></div>
+    <div id="form_center">
+        <form>
+            <h3>Önska recept eller säg vad du tycker om hemsidan!</h3>
+            <div>
+                <input type="text" placeholder="Förnamn" />
+            </div>
+            <div>
+                <input type="text" placeholder="Efternamn" />
+            </div>
+            <div>
+                <input type="text" placeholder="Email" />
+            </div>
+            <div>
+                <input type="text" placeholder="Telefonnummer">
+            </div>
+            <div>
+                <textarea type="text" placeholder="Skriv här"> </textarea>
+            </div>
+            <input id="submit" type="submit" value="Skicka">
+            <div></div>
+        </form>
     </div>
-    <div id="background"></div>
+    <footer>
+        <div>
+            <div> Contacts: glizzy.recipes@official.se </div>
+            <div> Address: Birmingham, Smethwick </div>
+        </div>
+        <div id="socials">
+            <div>Socials</div>
+            <div>
+                <a href=""><i class="icons fa-brands fa-instagram"></i></a>
+                <a href=""><i class="icons fa-brands fa-snapchat"></i></a>
+                <a href=""><i class="icons fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+        <div></div>
+    </footer>
 </body>
 
 </html>
